@@ -11,7 +11,7 @@ Sistema completo para **gerenciamento de estoque voltado à produção**, onde c
 - Spring Boot
 - Spring Data JPA
 - Hibernate
-- Banco de dados relacional (PostgreSQL / MySQL)
+- Banco de dados relacional (Oracle)
 - Paginação com Pageable
 - DTO Pattern
 - Tratamento global de exceções
