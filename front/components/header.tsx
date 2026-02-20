@@ -1,14 +1,13 @@
-import Image from "next/image";
 import { ThemeSwither } from "./theme/theme-swither";
 import { Separator } from "./ui/separator";
-import logo from "@/assets/rocketseat-icon.svg";
 import Tabs from "./tabs";
+import { Store } from "lucide-react";
 
 export async function Header() {
   return (
-    <div className="mx-auto flex max-w-300 items-center justify-between border-b pb-2">
+    <div className="mx-auto flex max-w-5xl items-center justify-between border-b pb-2">
       <div className="flex items-center gap-3">
-        <Image src={logo} className="size-6 dark:invert" alt="Header" />
+        <Store className="size-8 text-zinc-900 dark:text-zinc-400" strokeWidth={1.5} />
       </div>
 
       <div className="flex items-center gap-4">
